@@ -2,40 +2,54 @@
 
 ## Overview
 
-The purpose of this project was to review the NYC Citi Bike bikesharing data and use the learning to create visualizations and conclusions for the possibility of a bikesharing program in Des Moines, Iowa. We utlized Jupyter Notebook and used Pandas to convert the trip duration to a datetime format. We then utilized Tableau for the visualations.
+The purpose of this project was to review the NYC Citi Bike bikesharing data and use the learning to create visualizations and conclusions for the possibility of a bikesharing program in Des Moines, Iowa. We utilized Jupyter Notebook and used Pandas to convert the trip duration to a datetime format. We then utilized Tableau for the visualizations.
 
 ## Analysis and Results
 
-We utilized Jupyter Notebook and pandas to convert the trip duration to a datetime format. After exporting that datafram as a csv, we were ready to visualize. Utilizing Tableau, we put together a series of visualizations to help us make decisions for the project. The Tableau story is found here: [Tableau Dashboard](https://public.tableau.com/app/profile/bess.o.brien/viz/NYCCitiBikeDataReview/NYCCitiBikeReview)
+We utilized Jupyter Notebook and pandas to convert the trip duration to a datetime format. After exporting that datafram as a csv, we were ready to visualize. Utilizing Tableau, we put together a series of visualizations to help us make decisions for the project. The Tableau story is found here: [Tableau Dashboard - NYC Citi Bike Data Review](https://public.tableau.com/app/profile/bess.o.brien/viz/NYCCitiBikeDataReview/NYCCitiBikeReview)
 
 Some key notes from this data:
 
 1. **Checkout Time by User**
-LINK TO IMAGE
+
+![user_time](https://github.com/bessobrien/bikesharing/blob/main/Resources/trip_duration.png)
+
 This was the typical trip duration. We saw that most trip durations overall were less than an hour.
 
 2. **Checkout Time by Gender**
-LINK TO IMAGE
+
+![time_gender](https://github.com/bessobrien/bikesharing/blob/main/Resources/duration_gender.png)
+
 This was the trip duration, but split out by gender. From this, we can see that regardless of gender, trips typically last under an hour.
 
 3. **Trips by Weekday for Each Hour**
-LINK
+
+![wkdy_hr](https://github.com/bessobrien/bikesharing/blob/main/Resources/weekday_hour.png)
+
 This visual showed a heatmap of our top times by weekday. This shows us that 8-9am and 5-7pm are peak hours, and Thursday is the heaviest weekday.
 
 4. **Trips by Gender (Weekday per Hour)**
-LINK
+
+![gndr_wk_hr](https://github.com/bessobrien/bikesharing/blob/main/Resources/trip_gender_weekday.png)
+
 Another heatmap, but split out by gender. We see here that regardless of gender, peak hours and days remain consistent.
 
 5. **User Trips by Gender by Weekday**
-LINK
+
+![gndr_wkday](https://github.com/bessobrien/bikesharing/blob/main/Resources/trip_gender_day.png)
+
 This was split to show a customer vs subscriber, the weekday, and gender in a heatmap. Most of the rides were accomplished by subscribers, and again we see male as the top frequent rider gender and Thursday as the peak day.
 
 6. **Top Starting Location**
-LINK
+
+![starting](https://github.com/bessobrien/bikesharing/blob/main/Resources/starting.png)
+
 This is a map visual with the top starting locations. From here, we can see that the most frequented areas are close together, and the rides are a combination of commuters and tourists.
 
 7. **Bike Utilization**
-LINK
+
+![bike_util](https://github.com/bessobrien/bikesharing/blob/main/Resources/Bike_utilization.png)
+
 Here we can see the bike id's and their total trips. This helps us plan that some bikes will be used more than others and will require more frequent maintenance.
 
 ## Summary
