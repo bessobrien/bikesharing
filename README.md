@@ -6,7 +6,7 @@ The purpose of this project was to review the NYC Citi Bike bikesharing data and
 
 ## Analysis and Results
 
-We utilized Jupyter Notebook and pandas to convert the trip duration to a datetime format. After exporting that datafram as a csv, we were ready to visualize. Utilizing Tableau, we put together a series of visualizations to help us make decisions for the project. The Tableau story is found here: LINK.
+We utilized Jupyter Notebook and pandas to convert the trip duration to a datetime format. After exporting that datafram as a csv, we were ready to visualize. Utilizing Tableau, we put together a series of visualizations to help us make decisions for the project. The Tableau story is found here: [Tableau Dashboard](https://public.tableau.com/app/profile/bess.o.brien/viz/NYCCitiBikeDataReview/NYCCitiBikeReview)
 
 Some key notes from this data:
 
